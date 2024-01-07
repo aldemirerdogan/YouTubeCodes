@@ -12,9 +12,9 @@ int main() {
     printf("|\t Toplama : %2d + %d = %d \t\t\t\t\t | \n ", degisken1, degisken2, degisken1+degisken2);
     printf("|\t Çıkarma : %2d - %d = %d \t\t\t\t\t | \n ", degisken1, degisken2, degisken1-degisken2);
     printf("|\t Çarpma : %2d * %d = %d \t\t\t\t\t  | \n ", degisken1, degisken2, degisken1*degisken2);
-    printf("|\t Bölme : %d / %d = %d \t\t\t\t\t  | \n ", degisken1, degisken2, degisken1/degisken2);
-    printf("|\t Bölme (float) : %f / %f = %f |\n ", degiskenf1, degiskenf2, degiskenf1/degiskenf2);
-    printf("| \t Bölme (float) : %f / %f = %d \t\t | \n ", degiskenf1, degiskenf2, degiskenf1/degiskenf2);
+    printf("|\t Bölme : %2d / %d = %d \t\t\t\t\t  | \n ", degisken1, degisken2, degisken1/degisken2);
+    printf("|\t Bölme (float) : %9f / %f = %f |\n ", degiskenf1, degiskenf2, degiskenf1/degiskenf2);
+    printf("| \t Bölme (float) : %9f / %f = %d \t\t | \n ", degiskenf1, degiskenf2, degiskenf1/degiskenf2);
 
     return 0;
 }
